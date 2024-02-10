@@ -6,21 +6,25 @@
     <style>
       /* GLOBAL STYLES */
       a {
-        color: red;
+        color: rgba(182, 149, 192, 0.2);
       }
-
       /* SOCIAL STYLES */
       .social-link {
-        color: blue;
+        background: rgba(150, 150, 150, 0.5);
+        color: #00f;
       }
 
       /* BIO STYLES */
       .bio-box {
-        border: 1px solid black;
+        border: 1px solid #000;
       }
 
       .bio-copy a {
-        color: green;
+        color: #008000;
+      }
+
+      div.bio-box {
+        border: 1px solid #008000;
       }
     </style>
   </head>
@@ -28,19 +32,21 @@
     <h1>I'm an h1</h1>
     <ul>
       <li>
-        <a href="https://example.com/">Link</a>
+        <a href="https://example.com/" class="social-link">Link</a>
       </li>
       <li>
-        <a href="https://example.com/">Link</a>
+        <a href="https://example.com/" class="social-link">Link</a>
       </li>
       <li>
-        <a href="https://example.com/">Link</a>
+        <a href="https://example.com/" class="social-link">Link</a>
       </li>
     </ul>
     <h2>I'm an h2</h2>
     <div class="bio-box">
       <h3>Michael Hartl</h3>
-      <a href="https://twitter.com/mhartl" class="social-link">here</a>
+      <a href="https://twitter.com/mhartl" target="_blank" class="social-link"
+        >here</a
+      >
       <div class="bio-copy">
         <p>
           Known for his dazzling charm, rapier wit, and unrivaled humility,
@@ -59,7 +65,12 @@
     </div>
     <div class="bio-box">
       <h3>Lee Donahoe</h3>
-      <a href="https://twitter.com/leedonahoe" class="social-link">here</a>
+      <a
+        href="https://twitter.com/leedonahoe"
+        target="_blank"
+        class="social-link"
+        >here</a
+      >
       <div class="bio-copy">
         <p>
           When he's not literally swimming with sharks or hunting powder stashes
@@ -71,7 +82,12 @@
     </div>
     <div class="bio-box">
       <h3>Nick Merwin</h3>
-      <a href="https://twitter.com/nickmerwin" class="social-link">here</a>
+      <a
+        href="https://twitter.com/nickmerwin"
+        target="_blank"
+        class="social-link"
+        >here</a
+      >
       <div class="bio-copy">
         <p>
           You may have seen him shredding guitar live with Capital Cities on
