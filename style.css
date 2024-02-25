@@ -24,6 +24,10 @@ h1 {
   width: 50vw;
 }
 
+.full-hero li {
+  display: inline;
+}
+
 /* .hero-home {
 } */
 
@@ -34,6 +38,10 @@ h1 {
   display: inline-block;
   height: 36px;
   width: 36px;
+}
+
+.show {
+  display: block;
 }
 
 /* BIO STYLES */
