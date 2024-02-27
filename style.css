@@ -24,13 +24,6 @@ h1 {
   width: 50vw;
 }
 
-.full-hero li {
-  display: inline;
-}
-
-/* .hero-home {
-} */
-
 /* SOCIAL STYLES */
 .social-link {
   background: rgba(150, 150, 150, 0.5);
@@ -40,18 +33,14 @@ h1 {
   width: 36px;
 }
 
-.show {
-  display: block;
-}
-
 /* BIO STYLES */
-/* .bio-wrapper {
-} */
-
 .bio-box {
   border: 1px solid black;
-  font-size: 1em;
-  width: 50%;
+  box-sizing: border-box;
+  float: left;
+  font-size: 1rem;
+  padding: 2%;
+  width: 25%;
 }
 
 .bio-box h3 {
@@ -64,4 +53,9 @@ h1 {
 
 .bio-copy a {
   color: green;
+}
+
+.bio-wrapper {
+  font-size: 24px;
+  overflow: hidden;
 }
