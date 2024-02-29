@@ -33,6 +33,16 @@ h1 {
   width: 36px;
 }
 
+.social-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.social-list > li {
+  display: inline-block;
+}
+
 /* BIO STYLES */
 .bio-box {
   border: 1px solid black;
