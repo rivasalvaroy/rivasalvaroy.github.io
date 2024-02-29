@@ -36,7 +36,7 @@ h1 {
 .social-list {
   list-style: none;
   padding: 0;
-  text-align: center;
+  text-align: right;
 }
 
 .social-list > li {
@@ -51,6 +51,10 @@ h1 {
   font-size: 1rem;
   padding: 2%;
   width: 25%;
+}
+
+.bio-box > a {
+  color: #c68bf9;
 }
 
 .bio-box h3 {
